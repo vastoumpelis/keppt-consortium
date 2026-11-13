@@ -1,0 +1,122 @@
+media:
+  input: media
+  output: media
+  rename: safe
+  categories: [image, document]
+
+content:
+  - name: site
+    label: Website content
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: brand
+        label: Website name
+        type: string
+      - name: tagline
+        label: Tagline
+        type: string
+      - name: hero
+        label: Homepage introduction
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: title, label: Main heading, type: text }
+          - { name: intro, label: Introduction, type: text }
+          - { name: videoUrl, label: Video link, type: string }
+      - name: about
+        label: About the consortium
+        type: object
+        fields:
+          - { name: intro, label: Introduction, type: text }
+          - name: history
+            label: History paragraphs
+            type: text
+            list: true
+          - name: vision
+            label: Vision paragraphs
+            type: text
+            list: true
+          - { name: videoLabel, label: Video button text, type: string }
+      - name: members
+        label: Consortium members
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - { name: name, label: Organisation, type: string }
+          - { name: description, label: Description, type: text }
+          - { name: url, label: Website address, type: string }
+      - name: why
+        label: Why this matters
+        type: object
+        fields:
+          - { name: petsTitle, label: Pets heading, type: string }
+          - { name: pets, label: Role of pets, type: text }
+          - { name: problemTitle, label: Problem heading, type: string }
+          - { name: problem, label: The problem, type: text }
+          - { name: quote, label: Quote, type: text }
+      - name: goodPractice
+        label: Good practice hub
+        type: object
+        fields:
+          - { name: intro, label: Introduction, type: text }
+          - { name: charterTitle, label: Charter title, type: string }
+          - { name: charterBody, label: Charter description, type: text }
+          - { name: charterNote, label: Charter link note, type: string }
+          - name: resources
+            label: Resources
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: title, label: Resource name, type: string }
+              - { name: description, label: Description, type: text }
+              - { name: note, label: Link or availability note, type: string }
+      - name: newsEvents
+        label: News & events cards
+        type: object
+        list:
+          min: 3
+          max: 3
+          collapsible:
+            collapsed: true
+            summary: "{kind}: {title}"
+        fields:
+          - { name: kind, label: Card type, type: string }
+          - { name: date, label: Date or label, type: string }
+          - { name: title, label: Card heading, type: string }
+          - { name: description, label: Card text, type: text }
+          - { name: image, label: Image (optional), type: image }
+          - { name: imageAlt, label: Image description, type: string }
+          - { name: note, label: Extra note (optional), type: string }
+      - name: collaboration
+        label: Get involved
+        type: object
+        fields:
+          - { name: impact, label: IMPACT collaboration, type: text }
+          - { name: intro, label: Invitation, type: text }
+          - { name: partners, label: Organisations and partners, type: text }
+          - { name: livedExperience, label: People with lived experience, type: text }
+      - name: contact
+        label: Contact details
+        type: object
+        fields:
+          - { name: message, label: Contact message, type: text }
+          - { name: email, label: Email address, type: string }
+          - { name: socialUrl, label: Social media link, type: string }
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: user
+    templates:
+      create: "content: add {filename}"
+      update: "content: update {filename}"
+      delete: "content: remove {filename}"
