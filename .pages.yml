@@ -17,6 +17,9 @@ content:
       - name: tagline
         label: Tagline
         type: string
+      - name: logo
+        label: Header logo
+        type: image
       - name: hero
         label: Homepage introduction
         type: object
@@ -24,7 +27,7 @@ content:
           - { name: eyebrow, label: Small heading, type: string }
           - { name: title, label: Main heading, type: text }
           - { name: intro, label: Introduction, type: text }
-          - { name: videoUrl, label: Video link, type: string }
+          - { name: videoUrl, label: Vision video URL (YouTube), type: string }
       - name: about
         label: About the consortium
         type: object
@@ -48,6 +51,9 @@ content:
             summary: "{name}"
         fields:
           - { name: name, label: Organisation, type: string }
+          - { name: initials, label: Bubble initials (image fallback), type: string }
+          - { name: image, label: Member bubble image (optional), type: image }
+          - { name: imageAlt, label: Image description, type: string }
           - { name: description, label: Description, type: text }
           - { name: url, label: Website address, type: string }
       - name: why
@@ -64,26 +70,26 @@ content:
         type: object
         fields:
           - { name: intro, label: Introduction, type: text }
-          - { name: charterTitle, label: Charter title, type: string }
-          - { name: charterBody, label: Charter description, type: text }
-          - { name: charterNote, label: Charter link note, type: string }
           - name: resources
-            label: Resources
+            label: Hub resources and charters
             type: object
             list:
               collapsible:
                 collapsed: true
                 summary: "{title}"
             fields:
-              - { name: title, label: Resource name, type: string }
+              - { name: type, label: Type (e.g. resource or charter), type: string }
+              - { name: title, label: Title, type: string }
               - { name: description, label: Description, type: text }
-              - { name: note, label: Link or availability note, type: string }
+              - { name: link, label: Link (optional), type: string }
+              - { name: image, label: Image (optional), type: image }
+              - { name: imageAlt, label: Image description, type: string }
       - name: newsEvents
         label: News & events cards
         type: object
         list:
-          min: 3
-          max: 3
+          min: 1
+          max: 6
           collapsible:
             collapsed: true
             summary: "{kind}: {title}"
