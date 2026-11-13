@@ -21,61 +21,88 @@
     "videoLabel": "Watch our video"
   },
   "members": [
-    {"name":"Street Paws","description":"A founding consortium member.","url":"https://streetpaws.org.uk/"},
-    {"name":"Street Vet","description":"A founding consortium member.","url":"https://www.streetvet.org.uk/"},
-    {"name":"Dogs Trust","description":"Together Through Homelessness is Dogs Trust's contribution to the consortium.","url":"https://www.dogstrusthopeproject.org.uk/"},
-    {"name":"Vets in the Community","description":"A founding consortium member.","url":"https://vetsinthecommunity.weebly.com/"},
-    {"name":"Newcastle University","description":"Dr Mackenzie Fong is a researcher who evaluates interventions and policies across a range of public health areas.","url":"https://www.ncl.ac.uk/"}
+    {
+      "name": "Street Paws",
+      "description": "A founding consortium member.",
+      "url": "https://streetpaws.org.uk/"
+    },
+    {
+      "name": "Street Vet",
+      "description": "A founding consortium member.",
+      "url": "https://www.streetvet.org.uk/"
+    },
+    {
+      "name": "Dogs Trust",
+      "description": "Together Through Homelessness is Dogs Trust's contribution to the consortium.",
+      "url": "https://www.dogstrusthopeproject.org.uk/"
+    },
+    {
+      "name": "Vets in the Community",
+      "description": "A founding consortium member.",
+      "url": "https://vetsinthecommunity.weebly.com/"
+    },
+    {
+      "name": "Newcastle University",
+      "description": "Dr Mackenzie Fong is a researcher who evaluates interventions and policies across a range of public health areas.",
+      "url": "https://www.ncl.ac.uk/"
+    }
   ],
   "why": {
-    "petsTitle":"The role of pets",
-    "pets":"For people experiencing homelessness, a pet is often much more than an animal. Pets can provide friendship, comfort, support and a sense of family during difficult times.",
-    "problemTitle":"The problem",
-    "problem":"Across the UK, very few temporary accommodation providers allow pets. Many people have to choose between accessing accommodation and staying with their pet, which can make it harder to get the housing and support they need.",
-    "quote":"Good support isn't just about services — it's about having a life."
+    "petsTitle": "The role of pets",
+    "pets": "For people experiencing homelessness, a pet is often much more than an animal. Pets can provide friendship, comfort, support and a sense of family during difficult times.",
+    "problemTitle": "The problem",
+    "problem": "Across the UK, very few temporary accommodation providers allow pets. Many people have to choose between accessing accommodation and staying with their pet, which can make it harder to get the housing and support they need.",
+    "quote": "Good support isn't just about services — it's about having a life."
   },
   "goodPractice": {
-    "intro":"Guidance, resources, tools, policies, templates, position statements and examples of good practice.",
-    "charterTitle":"Keeping Pets and People Together Charter",
-    "charterBody":"The Charter sets out guiding principles and practical commitments to help organisations become more companion animal inclusive. It encourages collaboration across housing, health, local authorities, homelessness services, animal welfare organisations and community partners to create systems that value relationships, promote dignity, and recognise the relationship between a person and their pet as a strength.\n\nIt was developed through co-design workshops and engagement sessions led by Rosie, IMPACT Facilitator, with consortium members.",
-    "resources":[
-      {"title":"Policy template","description":"A practical template, developed through the IMPACT Facilitator Project, to help commissioners and service providers create more pet-inclusive services.","note":"The template download will be added here."},
-      {"title":"Case studies","description":"Examples of pet-inclusive practice, including the challenge, actions taken, outcomes and key learning.","note":"Partner case studies will be added here."}
+    "intro": "Guidance, resources, tools, policies, templates, position statements and examples of good practice.",
+    "charterTitle": "Keeping Pets and People Together Charter",
+    "charterBody": "The Charter sets out guiding principles and practical commitments to help organisations become more companion animal inclusive. It encourages collaboration across housing, health, local authorities, homelessness services, animal welfare organisations and community partners to create systems that value relationships, promote dignity, and recognise the relationship between a person and their pet as a strength.\n\nIt was developed through co-design workshops and engagement sessions led by Rosie, IMPACT Facilitator, with consortium members.",
+    "resources": [
+      {
+        "title": "Policy template",
+        "description": "A practical template, developed through the IMPACT Facilitator Project, to help commissioners and service providers create more pet-inclusive services.",
+        "note": "The template download will be added here."
+      },
+      {
+        "title": "Case studies",
+        "description": "Examples of pet-inclusive practice, including the challenge, actions taken, outcomes and key learning.",
+        "note": "Partner case studies will be added here."
+      }
     ],
-    "charterNote":"Charter download details will be added here."
+    "charterNote": "Charter download details will be added here."
   },
   "newsEvents": [
     {
-      "kind":"Webinar",
-      "date":"24 November 2026 · 2pm",
-      "title":"Promoting Pet-Inclusive Accommodation and Services",
-      "description":"Hosted by the consortium with IMPACT and Homeless Link, this webinar will explore why pet-inclusive approaches matter, challenge common misconceptions and showcase practical ways organisations can become more welcoming. Attendees will hear from people with lived experience, learn about specialist support, and discover practical steps to become more pet inclusive.",
-      "note":"Registration details will be shared here."
+      "kind": "Webinar",
+      "date": "24 November 2026 · 2pm",
+      "title": "Promoting Pet-Inclusive Accommodation and Services",
+      "description": "Hosted by the consortium with IMPACT and Homeless Link, this webinar will explore why pet-inclusive approaches matter, challenge common misconceptions and showcase practical ways organisations can become more welcoming. Attendees will hear from people with lived experience, learn about specialist support, and discover practical steps to become more pet inclusive.",
+      "note": "Registration details will be shared here."
     },
     {
-      "kind":"Award",
-      "date":"11 November 2026 · Cardiff",
-      "title":"KePPT wins a Paw Prints Award",
-      "description":"The consortium attended the RSPCA Paw Prints Awards 2026 and won the Prevention and Early Intervention Hero Award. We were also finalists for the Special Award. These achievements reflect the dedication of consortium members and our shared commitment to pet-inclusive services and accommodation.",
-      "image":"media/awards-photo.jpg",
-      "imageAlt":"Consortium members at the RSPCA Paw Prints Awards, with their award."
+      "kind": "Award",
+      "date": "11 November 2026 · Cardiff",
+      "title": "KePPT wins a Paw Prints Award",
+      "description": "The consortium attended the RSPCA Paw Prints Awards 2026 and won the Prevention and Early Intervention Hero Award. We were also finalists for the Special Award. These achievements reflect the dedication of consortium members and our shared commitment to pet-inclusive services and accommodation.",
+      "image": "media/rspca-paw-prints-awards-2026.jpeg",
+      "imageAlt": "Consortium members at the RSPCA Paw Prints Awards, with their award."
     },
     {
-      "kind":"Consortium news",
-      "date":"Our story",
-      "title":"A partnership continuing beyond the project",
-      "description":"After the IMPACT Facilitator Project ended, the partner organisations chose to keep working together. The consortium shares knowledge and good practice and works to influence policy and practice, helping increase access to pet-inclusive homelessness services and accommodation."
+      "kind": "Consortium news",
+      "date": "Our story",
+      "title": "A partnership continuing beyond the project",
+      "description": "After the IMPACT Facilitator Project ended, the partner organisations chose to keep working together. The consortium shares knowledge and good practice and works to influence policy and practice, helping increase access to pet-inclusive homelessness services and accommodation."
     }
   ],
   "collaboration": {
-    "impact":"IMPACT continues to support the consortium through its National Embedding Team. Marivjena Menka, National Embedding Lead at IMPACT, works closely with members to support the consortium's development, facilitate collaboration, identify opportunities for change, share learning and evidence, and support efforts to influence policy and practice.",
-    "intro":"We welcome collaboration from organisations, professionals, researchers, people with lived experience and anyone who shares our commitment to improving access to pet-inclusive services and accommodation.",
-    "partners":"If you or your organisation is interested in supporting the consortium, sharing expertise, contributing resources, collaborating on projects or helping influence policy and practice, we would love to hear from you.",
-    "livedExperience":"People with lived experience are central to our work. If you would like to share your experiences, story, insights or ideas, we would be pleased to hear from you. Your contribution can help raise awareness, inform good practice and support positive change for people and their pets."
+    "impact": "IMPACT continues to support the consortium through its National Embedding Team. Marivjena Menka, National Embedding Lead at IMPACT, works closely with members to support the consortium's development, facilitate collaboration, identify opportunities for change, share learning and evidence, and support efforts to influence policy and practice.",
+    "intro": "We welcome collaboration from organisations, professionals, researchers, people with lived experience and anyone who shares our commitment to improving access to pet-inclusive services and accommodation.",
+    "partners": "If you or your organisation is interested in supporting the consortium, sharing expertise, contributing resources, collaborating on projects or helping influence policy and practice, we would love to hear from you.",
+    "livedExperience": "People with lived experience are central to our work. If you would like to share your experiences, story, insights or ideas, we would be pleased to hear from you. Your contribution can help raise awareness, inform good practice and support positive change for people and their pets."
   },
   "contact": {
-    "message":"For general enquiries, partnership opportunities or to share your experience, please contact a consortium member. Direct contact details and social channels will be added here.",
-    "email":"",
-    "socialUrl":""
+    "message": "For general enquiries, partnership opportunities or to share your experience, please contact a consortium member. Direct contact details and social channels will be added here.",
+    "email": "m.menka@bham.ac.uk"
   }
 }
